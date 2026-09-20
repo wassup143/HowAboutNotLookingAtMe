@@ -1,0 +1,21 @@
+C:/Users/vlal/Downloads/ffmpeg-2026-07-20-git-c23123630e-essentials_build/ffmpeg-2026-07-20-git-c23123630e-essentials_build/bin/ffmpeg.exe -hide_banner -y -y -r 4 -start_number 0 -start_number_range 1 -i C:/Users/vlal/AppData/Roaming/ModrinthApp/profiles/Forge 1.20.1 (2) (1)/config/fancymenu/assets/кадр%04d.png -i C:/Users/vlal/AppData/Roaming/ModrinthApp/profiles/Forge 1.20.1 (2) (1)/config/fancymenu/assets/KritaTempPalettegen_%06d.png -lavfi [0:v][1:v]paletteuse=dither=sierra2_4a:diff_mode=none -f gif -loop 0 -gifflags +transdiff C:/Users/vlal/AppData/Roaming/ModrinthApp/profiles/Forge 1.20.1 (2) (1)/config/fancymenu/assets/hover_hold_options_new_anim.gif
+=====================================================
+Input #0, image2, from 'C:/Users/vlal/AppData/Roaming/ModrinthApp/profiles/Forge 1.20.1 (2) (1)/config/fancymenu/assets/кадр%04d.png':
+  Duration: 00:00:00.20, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgba(pc, gbr/unknown/unknown), 3024x4032 [SAR 2835:2835 DAR 3:4], 25 fps, 25 tbr, 25 tbn
+Input #1, image2, from 'C:/Users/vlal/AppData/Roaming/ModrinthApp/profiles/Forge 1.20.1 (2) (1)/config/fancymenu/assets/KritaTempPalettegen_%06d.png':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: N/A
+  Stream #1:0: Video: png, rgba(pc, gbr/unknown/unknown), 16x16 [SAR 1:1 DAR 1:1], 25 fps, 25 tbr, 25 tbn
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse
+  Stream #1:0 (png) -> paletteuse
+  paletteuse:default -> Stream #0:0 (gif)
+Press [q] to stop, [?] for help
+Output #0, gif, to 'C:/Users/vlal/AppData/Roaming/ModrinthApp/profiles/Forge 1.20.1 (2) (1)/config/fancymenu/assets/hover_hold_options_new_anim.gif':
+  Metadata:
+    encoder         : Lavf63.5.101
+  Stream #0:0: Video: gif, pal8(pc, gbr/unknown/unknown, progressive), 3024x4032 [SAR 1:1 DAR 3:4], q=2-31, 200 kb/s, 4 fps, 100 tbn
+    Metadata:
+      encoder         : Lavc63.6.101 gif
+frame=    1 fps=0.0 q=-0.0 size=       0KiB time=00:00:00.25 bitrate=   0.0kbits/s speed=0.481x elapsed=0:00:00.51    frame=    4 fps=3.9 q=-0.0 size=    2816KiB time=00:00:01.00 bitrate=23068.7kbits/s speed=0.974x elapsed=0:00:01.02    [out#0/gif @ 00000271a55a7540] video:7972KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000245%
+frame=    5 fps=4.5 q=-0.0 Lsize=    7972KiB time=00:00:01.25 bitrate=52247.0kbits/s speed=1.13x elapsed=0:00:01.10    
