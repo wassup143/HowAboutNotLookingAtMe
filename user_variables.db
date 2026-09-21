@@ -1,0 +1,116 @@
+type = user_variables
+
+variable {
+  name = knife_cene
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = death_debuger
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = death_debug_garant
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = roblox
+  value = 33
+  reset_on_launch = false
+}
+
+variable {
+  name = sex
+  value =  
+  reset_on_launch = true
+}
+
+variable {
+  name = jarona
+  value = exit
+  reset_on_launch = true
+}
+
+variable {
+  name = 1debug
+  value = 1
+  reset_on_launch = false
+}
+
+variable {
+  name = click
+  value = 
+  reset_on_launch = true
+}
+
+variable {
+  name = end_cene
+  value = 
+  reset_on_launch = true
+}
+
+variable {
+  name = exit
+  value = 
+  reset_on_launch = true
+}
+
+variable {
+  name = death_random_handler
+  value = 21
+  reset_on_launch = false
+}
+
+variable {
+  name = novayback
+  value = 1
+  reset_on_launch = false
+}
+
+variable {
+  name = ticker_d_screen
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = music
+  value = 4
+  reset_on_launch = false
+}
+
+variable {
+  name = third
+  value = 
+  reset_on_launch = true
+}
+
+variable {
+  name = true
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = text
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = cool_variable_name
+  value = some_value
+  reset_on_launch = false
+}
+
+variable {
+  name = jumpscare
+  value = {"placeholder":"calc","values":{"expression":"{\"placeholder\":\"getvariable\",\"values\":{\"name\":\"jumpscare\"}} + 1"}}
+  reset_on_launch = false
+}
+
