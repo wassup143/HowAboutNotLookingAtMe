@@ -6,9 +6,6 @@ net.minecraft.client.gui.screens.TitleScreen {
 net.minecraft.client.gui.screens.LanguageSelectScreen {
 }
 
-de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
-}
-
 net.minecraft.client.gui.screens.OptionsScreen {
 }
 
@@ -60,9 +57,6 @@ net.minecraft.client.gui.screens.AccessibilityOptionsScreen {
 net.minecraft.client.gui.screens.controls.KeyBindsScreen {
 }
 
-de.keksuccino.spiffyhud.customization.SpiffyOverlayScreen {
-}
-
 net.minecraft.client.gui.screens.PauseScreen {
 }
 
@@ -70,5 +64,20 @@ net.minecraft.client.gui.screens.MouseSettingsScreen {
 }
 
 net.minecraft.client.gui.screens.achievement.StatsScreen {
+}
+
+net.minecraft.client.gui.screens.ConfirmScreen {
+}
+
+dev.dediamondpro.resourcify.gui.browsepage.BrowseScreen {
+}
+
+net.minecraft.client.gui.screens.DisconnectedScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.spiffyhud.customization.SpiffyOverlayScreen {
 }
 

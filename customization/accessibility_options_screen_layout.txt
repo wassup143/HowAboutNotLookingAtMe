@@ -2,14 +2,14 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = accessibility_options_screen
-  render_custom_elements_behind_vanilla = false
-  last_edited_time = 1786513424289
+  render_custom_elements_behind_vanilla = true
+  last_edited_time = 1790127585825
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:79a79e9c-f990-4aca-b723-6d7c41732af7-1786513213752] = [groups:][instances:]
+  [loading_requirement_container_meta:ab74422a-9962-4ee8-8af8-019d9edf6ee7-1790127583871] = [groups:][instances:]
 }
 
 menu_background {
@@ -28,7 +28,8 @@ menu_background {
 menu_background {
   instance_identifier = cc4e05fd-9798-4d06-90f9-c104389f6b53-1779012207108
   background_type = image
-  show_background = false
+  show_background = true
+  image_path = [source:local]/config/fancymenu/assets/acceleratingwindthing20.png
   slide = false
   repeat_texture = false
   parallax = false
@@ -59,8 +60,8 @@ menu_background {
 }
 
 menu_background {
-  instance_identifier = 65ea6905-b8ac-4df0-ae0e-967a068b8db4-1779012207108
-  background_type = video_mcef
+  instance_identifier = 4f6e7d27-1bba-41e8-bc31-0b585e170c2f-1789919217388
+  background_type = video_rinku
   show_background = false
   loop = false
   volume = 1.0
@@ -126,13 +127,6 @@ menu_background {
   mouse_position_requires_hold = false
   opacity_multiplier = 1.0
   show_compile_errors = true
-}
-
-menu_background {
-  instance_identifier = 82909fad-b35a-475f-8200-7500cee54f14-1779012207109
-  background_type = drippy_color_background
-  show_background = false
-  color = #FD5757FF
 }
 
 decoration_overlay {
@@ -279,14 +273,14 @@ decoration_overlay {
 decoration_overlay {
   overlay_type = rainfall
   instance_identifier = de51ae64-452d-4710-89fb-ab6d400a0b00-1779012207109
-  show_decoration_overlay = false
+  show_decoration_overlay = true
   rain_intensity = 1.0
   rain_scale = 1.0
   rain_thunder_brightness = 1.0
-  rain_puddles = true
+  rain_puddles = false
   rain_drips = true
   rain_thunder = false
-  rain_color_hex = #CFE7FF
+  rain_color_hex = #FF0000FF
 }
 
 decoration_overlay {
@@ -380,8 +374,8 @@ vanilla_button {
   auto_sizing_base_gui_scale = 3.0
   sticky_anchor = false
   anchor_point = vanilla
-  x = 325
-  y = 310
+  x = 218
+  y = 213
   width = 150
   height = 20
   stay_on_screen = true
@@ -424,7 +418,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = false
+  is_hidden = true
 }
 
 vanilla_button {
@@ -459,8 +453,8 @@ vanilla_button {
   auto_sizing_base_gui_scale = 0.0
   sticky_anchor = false
   anchor_point = vanilla
-  x = 165
-  y = 310
+  x = 58
+  y = 213
   width = 150
   height = 20
   stay_on_screen = true
@@ -503,6 +497,6 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = false
+  is_hidden = true
 }
 

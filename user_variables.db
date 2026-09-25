@@ -20,7 +20,7 @@ variable {
 
 variable {
   name = roblox
-  value = 33
+  value = 88
   reset_on_launch = false
 }
 
@@ -32,13 +32,13 @@ variable {
 
 variable {
   name = jarona
-  value = exit
+  value = 
   reset_on_launch = true
 }
 
 variable {
   name = 1debug
-  value = 1
+  value = 0
   reset_on_launch = false
 }
 
@@ -62,7 +62,7 @@ variable {
 
 variable {
   name = death_random_handler
-  value = 21
+  value = 97
   reset_on_launch = false
 }
 
@@ -80,7 +80,7 @@ variable {
 
 variable {
   name = music
-  value = 4
+  value = 5
   reset_on_launch = false
 }
 
