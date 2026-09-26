@@ -104,7 +104,7 @@ variable {
 
 variable {
   name = cool_variable_name
-  value = some_value
+  value = works
   reset_on_launch = false
 }
 
