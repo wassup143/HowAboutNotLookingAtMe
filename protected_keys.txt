@@ -1,4 +1,2 @@
 # Переменные пользователя — не перезаписывать
-death_debuger
-death_debug_garant
 1debug
